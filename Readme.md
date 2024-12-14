@@ -19,8 +19,8 @@ This is a simplified implementation of a banking system using **Domain-Driven De
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
-   cd <repository-folder>
+   git clone https://github.com/lukas-lmt/ifx-interview-task.git
+   cd ifx-interview-task
    ```
 
 2. Install dependencies:
@@ -68,11 +68,3 @@ This project uses **PHPUnit** for unit, integration/functional tests.
     └── Persistence/
 
 ```
-```
-src/
-├── Application/       # Application layer (services, commands)
-├── Domain/            # Domain layer (entities, value objects, specifications)
-├── Infrastructure/    # Infrastructure layer (repositories, persistence)
-└── Tests/             # Unit, integration, and functional tests
-```
-
